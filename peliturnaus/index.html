@@ -64,9 +64,21 @@
     </table>
     </section>
 
-    <section class="osio">   <!-- osio 4: lomake -->
-      <h2>...</h2>
-      <form> ... </form>
+ <section class="osio">   <!-- osio 4: lomake -->
+      <h2>Ilmoittautuminen</h2>
+      <form method="post" action="#">
+        <label for="nimi">Nimi:</label><br>
+        <input type="text" id="nimi" name="nimi" class="lomake-kentta" required><br><br>
+
+        <label for="sahkoposti">Sähköposti:</label><br>
+        <input type="email" id="sahkoposti" name="sahkoposti" class="lomake-kentta" required><br><br>
+
+        <label for="pelinimi">Pelinimi:</label><br>
+        <input type="text" id="pelinimi" name="pelinimi" class="lomake-kentta" required><br><br>
+        
+
+        <button type="submit" class="nappi">Lähetä</button>
+      </form>
     </section>
 
     <section class="osio">   <!-- osio 5: linkit -->
